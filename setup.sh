@@ -7,7 +7,7 @@ else
     PRE_COMMIT_EXISTS=0
 fi
 
-cp ./hooks/pre-commit .git/hooks/pre-commit
+cp ./phpcs-pre-commit/pre-commit .git/hooks/pre-commit
 chmod +x .git/hooks/pre-commit
 
 if [[ "$PRE_COMMIT_EXISTS" = 0 ]];

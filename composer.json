@@ -1,0 +1,11 @@
+{
+    "authors": [
+        {
+            "name": "KoBig",
+            "email": "bigguitarsolo@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.4"
+    }
+}
